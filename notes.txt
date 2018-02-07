@@ -1,0 +1,7 @@
+To initialize a repo with package.json:
+  1 - https://www.npmjs.com
+  2 - https://docs.npmjs.com/misc/config
+    2.1 - Search by init-module
+    2.2 - npm set init-author-name "your name"
+    2.3 - npm adduser
+    

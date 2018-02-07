@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "tdd with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoeffting/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "João Paulo Effting <joaoeffting@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaoeffting/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/joaoeffting/js-tdd-course#readme"
+}
