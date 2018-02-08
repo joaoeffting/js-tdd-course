@@ -4,6 +4,8 @@
   "description": "tdd with JS",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/joaoeffting/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/joaoeffting/js-tdd-course#readme"
+  "homepage": "https://github.com/joaoeffting/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.15.0-rc.6"
+  }
 }

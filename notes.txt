@@ -1,7 +1,32 @@
-To initialize a repo with package.json:
+- To initialize a repo with package.json:
   1 - https://www.npmjs.com
   2 - https://docs.npmjs.com/misc/config
     2.1 - Search by init-module
     2.2 - npm set init-author-name "your name"
     2.3 - npm adduser
-    
+    2.4 - npm init
+
+
+ - GITIGNORE
+  1 - https://www.npmjs.com/package/gitignore
+  2 - npm install gitignore -g
+  3 - gitignore Node
+
+
+- README
+ 1 - https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+ 2 - Create a LICENSE.md
+ 3 - Copy and paste https://opensource.org/licenses/MIT
+ 4 - Contributing.md  https://github.com/lyef/lyef-react-component/edit/master/CONTRIBUTING.md
+
+- STYLE GUIDE
+  1 - https://github.com/airbnb/javascript
+  2 - https://eslint.org/docs/user-guide/getting-started
+  3 - npm install eslint --save-dev
+  4 - ./node_modules/.bin/eslint --init
+  5 - use popular ; airbnb; Javascript
+  6 - .editorconfig
+  7 - install editorconfig plugin for IDE
+
+- GIT HOOKS
+  1 - https://github.com/typicode/husky
