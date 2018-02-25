@@ -31,4 +31,9 @@
 - GIT HOOKS
   1 - https://github.com/typicode/husky
 
-
+-- TESTS
+  1 - npm test --bail (quando encontrar uma falha, para a execução dos testes)
+  2 - it.skip (pula e deixa pendente)
+  3 - context.only  (executa apenas aquele context)
+  4 - HOOKS
+    4.1 -

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --watch"
   },
   "husky": {
     "hooks": {
@@ -28,9 +29,11 @@
   },
   "homepage": "https://github.com/joaoeffting/js-tdd-course#readme",
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "husky": "^0.15.0-rc.6"
+    "husky": "^0.15.0-rc.6",
+    "mocha": "^5.0.1"
   }
 }
